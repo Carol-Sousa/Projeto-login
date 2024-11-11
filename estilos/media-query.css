@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*Typical device breakpoints: Pre-definição de tamanhos de acordo com a tela, tornando o site responsivo,sendo:
+Telas pequenas: até 600px
+Celular: 600px-768px
+Tablet: 769px-1024px
+notbooks:1025px-1280px; grandes tealas 1281px-1440px
+telas maiores: acima de 144opx*/
+
+/*VERSÃO P TABLET*/
+@media screen and (min-width: 769px) and (max-width:1024px) { 
+    section#login {
+        width: 80vw;  
+    } 
+    body {
+        background-image: linear-gradient(to top,#530d0d, #641033);
+    }
+    section#login > div#imagem {
+        float:left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width:70%
+        
+    }
+    
+} 
+/*versão telas maiores*/
+@media screen and (min-width: 1025px) {
+    section#login {
+        width:1020px
+    }
+    body {
+        background-image: linear-gradient(to top,#530d0d, #641033); 
+    }
+
+    section#login > div#imagem {
+        float:left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
+
+    
+        
+
+    
